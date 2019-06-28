@@ -2,8 +2,64 @@
 //$body-color:                $gray-900 !default;
 
 $theme-colors:(
-"primary": red
+"primary": #00ffff,
+"secondary": #111360
 );
+
+$btn-border-radius: 50px;
+$btn-border-radius-lg: 50px;
+
+$btn-padding-y-lg:            20px;
+$btn-padding-x-lg:            40px;
+$btn-font-size-lg:            1.5rem;
+$btn-line-height-lg:          1;
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    height: 100vh;
+    background: url(../images/heroSection.jpg) no-repeat center center/cover;
+
+    h2{
+        font-size: 9.3rem;
+        font-family: open sans, sans-serif;
+        color: #fff;
+        font-weight: 700;
+        letter-spacing: 1.1rem;
+
+    }
+
+    span{
+        writing-mode: vertical-lr;
+        text-orientation: mixed;
+        font-size: 3rem;
+        letter-spacing: 0;
+        font-family: open sans, sans-serif;
+        color: #fff;
+        font-weight: 700;
+        
+    }
+
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13rem;
+        font-weight: 100;
+        letter-spacing: -5px;
+        line-height: 1;
+        text-shadow: 0 0 20px #fff,0 0 10px #fff,0 0 50px #ff0fad,0 0 50px #ff0fad,0 0 40px #ff0fad,0 0 100px #ff0fad,0 0 75px #ff0fad;
+        color: #fff;
+
+    }
+
+    .no-padding{
+        padding: 0;
+        margin: 0;
+    }
+}
+
+
