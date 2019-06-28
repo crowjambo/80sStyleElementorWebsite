@@ -6,6 +6,8 @@ $theme-colors:(
 "secondary": #111360
 );
 
+// #region BUTTONS
+
 $btn-border-radius: 50px;
 $btn-border-radius-lg: 50px;
 
@@ -14,8 +16,11 @@ $btn-padding-x-lg:            40px;
 $btn-font-size-lg:            1.5rem;
 $btn-line-height-lg:          1;
 
+//$btn-transition: all 2s ease-in-out;
 
-@import "../node_modules/bootstrap/scss/bootstrap";
+// #endregion
+
+@import "node_modules/bootstrap/scss/bootstrap.scss";
 
 body{
     font-family: "Roboto", sans-serif;
@@ -62,4 +67,13 @@ header{
     }
 }
 
+.btn{
+    transition: all .6s;
+}
+
+.btn-primary:hover{
+    background-color: #111360;
+    color: #00ffff;
+    border-color: #111360;
+}
 

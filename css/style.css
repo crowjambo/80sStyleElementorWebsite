@@ -7051,3 +7051,11 @@ header {
   header .no-padding {
     padding: 0;
     margin: 0; }
+
+.btn {
+  transition: all .6s; }
+
+.btn-primary:hover {
+  background-color: #111360;
+  color: #00ffff;
+  border-color: #111360; }
