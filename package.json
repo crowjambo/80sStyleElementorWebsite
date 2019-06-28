@@ -1,0 +1,27 @@
+{
+  "name": "80stylecopy",
+  "version": "1.0.0",
+  "description": "Copying elementor made landing page with bootstrap",
+  "main": "index.html",
+  "scripts": {
+    "test": "",
+    "build": "node-sass sass -o css",
+    "watch": "node-sass -w sass -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crowjambo/80sStyleElementorWebsite.git"
+  },
+  "author": "crowjambo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crowjambo/80sStyleElementorWebsite/issues"
+  },
+  "homepage": "https://github.com/crowjambo/80sStyleElementorWebsite#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  },
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
