@@ -7078,7 +7078,8 @@ header {
   width: 22em;
   height: 22em;
   perspective: 60em;
-  z-index: 500; }
+  z-index: 500;
+  overflow: hidden; }
 
 .scene:hover > .cube {
   transform: rotateY(-180deg); }
@@ -7089,6 +7090,11 @@ header {
   position: relative;
   transform-style: preserve-3d;
   transition: all 1s; }
+  .cube img {
+    width: 40%; }
+  .cube p {
+    line-height: 1.5rem;
+    margin-top: .8rem; }
 
 .face {
   width: 100%;
@@ -7103,7 +7109,11 @@ header {
 
 .back {
   transform: rotateY(180deg) translateZ(4em); }
+  .back p {
+    width: 80%;
+    transform: translateY(110%); }
 
 .center {
   transform: rotateY(180deg) translateZ(-2.5em);
-  background: url(../images/tri.png) no-repeat center center/cover; }
+  background: url(../images/tri.png) no-repeat center center/cover;
+  z-index: -1; }

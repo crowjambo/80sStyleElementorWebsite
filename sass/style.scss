@@ -99,11 +99,14 @@ header{
     }
 }
 
+// #region 3d transform cards
 .scene {
     width:22em;
     height:22em;
     perspective:60em;
     z-index: 500;
+    overflow: hidden;
+    
   }
   .scene:hover > .cube{
     transform: rotateY(-180deg);
@@ -115,6 +118,14 @@ header{
     position:relative;
     transform-style:preserve-3d;
     transition: all 1s;
+
+    img{
+        width: 40%;
+   }
+   p{
+       line-height: 1.5rem;
+       margin-top: .8rem;  
+   }
   }
 
   .face {
@@ -127,11 +138,25 @@ header{
     text-align:center;
   }
 
-.front  { transform: rotateY(0deg) translateZ(8em); }
-.back   { transform: rotateY(180deg) translateZ(4em); }
+.front {
+     transform: rotateY(0deg) translateZ(8em);
+
+}
+.back {
+    
+     transform: rotateY(180deg) translateZ(4em);
+     
+     p{
+        width: 80%;
+        //height: 100%;
+        transform: translateY(110%);
+    }
+}
 .center{
     transform: rotateY(180deg) translateZ(-2.5em);
     background: url(../images/tri.png) no-repeat center center/cover;
+    z-index: -1;
+    
 }
 
 // .top    { transform: rotateX(90deg) translateZ(4em); }
@@ -139,4 +164,4 @@ header{
 // .right  { transform: rotateY(90deg) translateZ(4em);  }
 // .left   { transform: rotateY(-90deg) translateZ(4em); }
 
-
+// #endregion
