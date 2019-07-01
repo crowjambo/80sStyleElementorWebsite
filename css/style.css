@@ -7172,14 +7172,22 @@ hr {
   background: url(../images/space2.jpg) no-repeat center center/cover;
   height: 900px; }
   .pricing h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-family: open sans, sans-serif;
-    font-weight: 100;
+    font-weight: 400;
     text-transform: uppercase;
     letter-spacing: -.9px;
     color: #fff;
     text-shadow: 0 0 20px #fff,0 0 10px #fff,0 0 50px #ff0fad,0 0 50px #ff0fad,0 0 40px #ff0fad,0 0 100px #ff0fad,0 0 75px #ff0fad; }
   .pricing .lead {
-    color: #fff; }
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px; }
   .pricing .big-heading {
     margin-top: 15%; }
+  .pricing #demo {
+    color: #fff;
+    font-size: 3.1rem;
+    font-weight: 100;
+    font-family: 'Space Mono', monospace, sans-serif;
+    margin: 3rem 0; }
