@@ -7052,6 +7052,9 @@ header {
     padding: 0;
     margin: 0; }
 
+.py-10 {
+  padding: 6rem 0; }
+
 .btn {
   transition: all .6s; }
 
@@ -7059,6 +7062,16 @@ header {
   background-color: #111360;
   color: #00ffff;
   border-color: #111360; }
+
+.btn-secondary {
+  font-size: 1.2rem;
+  background-color: rgba(13, 0, 158, 0.3);
+  box-shadow: 0 0 20px 11px rgba(81, 74, 158, 0.35);
+  font-weight: 500;
+  border-radius: 30px; }
+
+.btn-secondary:hover {
+  background: rgba(255, 0, 174, 0.76); }
 
 #cards {
   background-color: #000; }
@@ -7117,3 +7130,9 @@ header {
   transform: rotateY(180deg) translateZ(-2.5em);
   background: url(../images/tri.png) no-repeat center center/cover;
   z-index: -1; }
+
+.testimonials {
+  background: linear-gradient(rgba(15, 0, 76, 0.34), rgba(15, 0, 76, 0.34)), url(../images/background3.jpg) no-repeat center center/cover;
+  border-top: #00ffff solid 2px;
+  height: 700px;
+  background-attachment: fixed; }

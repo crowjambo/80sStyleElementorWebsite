@@ -31,6 +31,7 @@ header{
     //make this pixels in media query for small screens
     background: url(../images/heroSection.jpg) no-repeat center center/cover;
 
+
     h2{
         font-size: 9.3rem;
         //make text smaller on small screens
@@ -78,6 +79,10 @@ header{
     }
 }
 
+.py-10{
+    padding: 6rem 0;
+}
+
 .btn{
     transition: all .6s;
 }
@@ -86,6 +91,18 @@ header{
     background-color: #111360;
     color: #00ffff;
     border-color: #111360;
+}
+
+.btn-secondary{
+    font-size: 1.2rem;
+    background-color:  rgba(13,0,158,.3);
+    box-shadow: 0 0 20px 11px rgba(81,74,158,.35);
+    font-weight: 500;
+    border-radius: 30px;
+}
+
+.btn-secondary:hover{
+    background: rgba(255,0,174,.76);
 }
 
 
@@ -174,5 +191,18 @@ header{
 // .bottom { transform: rotateX(-90deg) translateZ(4em); }
 // .right  { transform: rotateY(90deg) translateZ(4em);  }
 // .left   { transform: rotateY(-90deg) translateZ(4em); }
+
+// #endregion
+
+
+// #region TESTIMONIALS
+.testimonials{
+    background: linear-gradient(rgba(15,0,76,0.34),rgba(15,0,76,0.34)) ,url(../images/background3.jpg) no-repeat center center/cover;
+    border-top: #00ffff solid 2px;
+    height: 700px;
+    background-attachment: fixed;
+
+}
+
 
 // #endregion
