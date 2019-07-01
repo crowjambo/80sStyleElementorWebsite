@@ -250,7 +250,7 @@ hr{
 // #region PRICING
 .pricing{
     background: url(../images/space2.jpg) no-repeat center center/cover;
-    height: 900px;
+    height: 100%;
 
     h1{
         font-size: 3rem;
@@ -278,6 +278,16 @@ hr{
         font-family: 'Space Mono', monospace, sans-serif;
         margin: 3rem 0;
     }
+
+    .card-pricing{
+        color: #fff;
+        height: 500px;
+        background: rgba(0, 0, 0, 0.151);
+        h2{
+
+        }
+    }
+
 }
 
 
