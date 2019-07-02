@@ -1,7 +1,7 @@
   <h2 align="center">Bootstrap practice, 80's landing page</h2>
 
 
-##Purpose
+## Purpose
 To practice remaking websites using bootstrap/sass, and to see if I am capable of making sites that page builders are.
 
 ### Built With
