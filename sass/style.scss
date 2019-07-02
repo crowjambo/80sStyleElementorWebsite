@@ -1,6 +1,12 @@
 //$body-bg:                   $white !default;
 //$body-color:                $gray-900 !default;
 
+
+
+
+  
+
+
 $theme-colors:(
 "primary": #00ffff,
 "secondary": #111360
@@ -251,6 +257,7 @@ hr{
 .pricing{
     background: url(../images/space2.jpg) no-repeat center center/cover;
     height: 100%;
+    padding-bottom: 10%;
 
     h1{
         font-size: 3rem;
@@ -282,13 +289,96 @@ hr{
     .card-pricing{
         color: #fff;
         height: 500px;
-        background: rgba(0, 0, 0, 0.151);
+        background: rgba(0, 0, 0, 0.288);
         h2{
-
+            text-transform: uppercase;
+            font-weight: 600;
+            line-height: 1.2;
+            font-size: 1.5rem;
+            padding: 1rem;
         }
+
+
     }
 
 }
+  
+  .pricing .card {
+    border: none;
+    border-radius: 0;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .pricing hr {
+    margin: 1.5rem 0;
+  }
+  
+  .pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+  }
+  
+  .pricing .card-price {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .pricing .card-price .period {
+    font-size: 0.8rem;
+  }
+  
+  .pricing ul li {
+    margin-bottom: 1rem;
+  }
+  
+  .pricing .text-muted {
+    opacity: 0.7;
+  }
+  
+  .pricing .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0.7;
+    transition: all 0.2s;
+  }
 
+  .card{
+      background: rgba(0, 0, 0, 0.295);
+      color: #fff;
+  }
+
+  .btn-primary{
+    color: #fff;
+    background: #000;
+    opacity: 1;
+    border: #000;
+  }
+  .btn-primary:hover{
+      color: #000;
+      background: #00ffff;
+  }
+
+
+
+
+  /* Hover Effects on Card */
+  
+  @media (min-width: 992px) {
+    .pricing .card:hover {
+      margin-top: -.25rem;
+      margin-bottom: .25rem;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.623);
+      background: rgba(0, 0, 0, 0.705);
+    }
+    .pricing .card:hover .btn {
+      opacity: 1;
+    }
+  }
 
 // #endregion PRICING
